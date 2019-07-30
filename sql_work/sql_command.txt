@@ -1,5 +1,0 @@
-SELECT house.address ,userinfo.uid ,userinfo.cname
-FROM live RIGHT JOIN userinfo
-on live.uid = userinfo.uid
-RIGHT JOIN house
-on live.hid = house.hid
